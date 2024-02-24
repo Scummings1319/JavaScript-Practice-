@@ -1,0 +1,53 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+  font-family: "Caveat", cursive;
+}
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hex-colors {
+  text-align: center;
+}
+.hex-colors h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  animation: colorchange 5s infinite alternate;
+}
+.hex-colors h2 {
+  font-size: 2rem;
+  margin-top: 15%;
+  color: azure;
+}
+@keyframes colorchange {
+  0% {
+    color: aquamarine;
+  }
+  20% {
+    color: rgb(92, 116, 234);
+  }
+  40% {
+    color: rgb(150, 255, 129);
+  }
+  60% {
+    color: rgb(255, 248, 113);
+  }
+  80% {
+    color: rgb(255, 169, 103);
+  }
+  100% {
+    color: rgb(255, 69, 69);
+  }
+}
+@media (max-width: 480px) {
+  .hex-colors h1 {
+    font-size: 1.5rem;
+  }
+  .hex-colors h1 {
+    font-size: 1.5rem;
+  }
+}

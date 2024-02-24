@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(rgb(255, 206, 222), white);
+  overflow: hidden;
+}
+button {
+  width: fit-content;
+  padding: 8px;
+  cursor: pointer;
+  border: 2px solid rgb(189, 189, 255);
+  border-radius: 5px;
+  background: rgba(255, 227, 227, 0.5);
+}
+button:hover {
+  background: rgba(255, 146, 146, 0.5);
+}
+.container {
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  border: 1px solid lightcoral;
+  background: rgb(255, 220, 220);
+  width: 500px;
+  height: auto;
+  margin: auto;
+  padding: 0 20px;
+  box-shadow: 0xp 2px 4px 0px rgb(255, 0, 89, 0.5);
+}
+.message input {
+  width: 90%;
+  padding: 8px 0;
+  border-radius: 5px;
+  border: 1px solid pink;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+@media (max-width: 480px) {
+  .message input {
+    width: 82%;
+  }
+}

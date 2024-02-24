@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image fade">
+        <img
+          src="/Image Carouel/photocarousel/IMG_20200725_095805.jpg"
+          alt="lunie sleepy"
+          width="100%"
+        />
+      </div>
+      <div class="image fade">
+        <img
+          src="/Image Carouel/photocarousel/IMG_20200817_155025.jpg"
+          alt="lunie sleepy"
+          width="100%"
+        />
+      </div>
+      <div class="image fade">
+        <img
+          src="/Image Carouel/photocarousel/PXL_20201119_040337588.jpg"
+          alt="lunie sleepy"
+          width="100%"
+        />
+      </div>
+      <div class="image fade">
+        <img
+          src="/Image Carouel/photocarousel/PXL_20201204_182557647.MP.jpg"
+          alt="lunie sleepy"
+          width="100%"
+        />
+      </div>
+      <div class="image fade">
+        <img
+          src="/Image Carouel/photocarousel/PXL_20201205_151059361.MP.jpg"
+          alt="lunie sleepy"
+          width="100%"
+        />
+      </div>
+      <div class="image fade">
+        <img
+          src="/Image Carouel/photocarousel/PXL_20210612_185117699.MP.jpg"
+          alt="lunie sleepy"
+          width="100%"
+        />
+      </div>
+      <i
+        onclick="show_image(-1)"
+        id="previous"
+        class="fa-solid fa-chevron-left"
+      ></i>
+      <i
+        onclick="show_image(1)"
+        id="next"
+        class="fa-solid fa-chevron-right"
+      ></i>
+
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
